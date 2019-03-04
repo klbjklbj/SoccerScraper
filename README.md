@@ -14,7 +14,7 @@ This is an app that uses Cheerio to let users scrape (retrieve) articles from th
 
 ## Getting Started
 
-Check out the deployed version here - https://fast-fjord-71527.herokuapp.com/ - automatic!
+Check out the deployed version here - https://fast-fjord-71527.herokuapp.com/ 
 
 -or-
 
