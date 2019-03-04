@@ -7,6 +7,7 @@ This is an app that uses Cheerio to let users scrape (retrieve) articles from th
 * MongoDB 
 * Mongoose
 * Cheerio
+* Axios
 * Javascript
 * Morgan (for logging)
 * Bootstrap 
