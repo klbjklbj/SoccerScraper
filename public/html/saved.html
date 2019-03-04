@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SoccerScraper Saved Articles</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link type="text/css" href="../css/style.css" rel="stylesheet" media="screen">
+
+    <!-- Popper for Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!-- Javascript link -->
+    <script type="text/javascript" src="../js/saved.js"></script>
+
+
+</head>
+
+<body>
+
+    <div id="primary">
+        <p>SoccerScraper - Soccer News from the New York Times</p>
+        <div>
+            <a id="btnHome" href="../html/index.html" role="button" class="btn btn-success">Home</a>
+        </div>
+    </div>
+
+    <div id="saved" class="card" style="display: block">
+        <p class="card-header">Saved Articles:</p>
+        <div id="savedArticlesDiv" class="card-body">
+            <ol id="savedArticles"></ol>
+        </div>
+    </div>
+
+    <div id="notes" class="card" style="display: none">
+        <div id="notesHeader">
+            <p class="card-header" style="display: inline-flex">Article Notes:</p>
+            <button id="hideNotes" style="display: inline-flex">Back to Saved Articles</button>
+        </div>
+        <div id="savedArticleNotesDiv" class="card-body">
+            <ul id="savedArticleNotes"></ul>
+        </div>
+        <div class="input-group">
+            <input id="noteTextInput" type="text" class="form-control" placeholder="Add new note">
+            <div class="input-group-append" id="btnDynAddNote">
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+body {
+    background-image: url("../images/field-bg.jpg");
+}
+
+#primary {
+    background-color: black;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#primary p {
+    font-size: 30px;
+    color: white;
+}
+
+#container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center; 
+    margin: 0px 2%;
+    align-items: stretch;
+}
+
+#scrapedArticles, #saved, #notes {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.card-header {
+    background-color: #DCDCDC;
+    font-family:'News Cycle', sans-serif;
+    font-size: 25px;
+    color: black;
+    border-bottom: none;
+}
+
+#articlesDiv, #savedArticlesDiv, #savedArticleNotesDiv {
+    background-color:white;
+}
+
+
+.title {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#notesHeader {
+    background-color: #DCDCDC;
+}
+
+#hideNotes {
+    background-color: forestgreen;
+    margin-left: 10px;
+    color: white;
+    border: 1px solid black;
+    padding: 8px 5px;
+    border-radius: .25rem;
+}
+
+.saveNoteButton {
+    background-color: forestgreen;
+    color: white;
+    border-radius: .25rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.input-group {
+    padding: 5px 2%;
+    background-color: #DCDCDC;
+}
+
+ul {
+    list-style-type: none;
+    margin-right: 3%;
+}
+
+
+/* adjusted verticle spacing so delete button is more clearly associated with note */
+#savedArticleNotes li {    
+    padding: 10px;   
+    margin-bottom: 20px;
+    font-size: 20px;
+}

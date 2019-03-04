@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Soccer Scraper</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"/>
+
+	<link type="text/css" href="../css/style.css" rel="stylesheet" media="screen"> 
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="primary">
+        <p>SoccerScraper - Soccer News from the New York Times</p>
+        <div>
+
+            <button id="btnScrape" type="button" class="btn btn-success">Scrape Articles</button>
+
+            <a id="viewSavedButton" href="/saved" role="button" class="btn btn-success">View Saved Articles</a>
+
+        </div>
+    </div>
+
+
+<!-- hiding scraped articles div until scrape button clicked -->
+    <div id="scrapedArticles" class="card" style="display: none">
+
+        <p class="card-header">Latest Headlines:</p>
+
+        <!-- Where scraped articles go -->
+        <div id="articlesDiv" class="card-body">
+            <ol id="results"></ol>
+        </div>
+        
+    </div>
+
+</body>
+
+<script type="text/javascript" src="../js/index.js"></script>
+	
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</html>

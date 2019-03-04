@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/klbjklbj/SoccerScraper/issues"
   },
-  "homepage": "https://github.com/klbjklbj/SoccerScraper#readme"
+  "homepage": "https://github.com/klbjklbj/SoccerScraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^6.2.0",
+    "mongoose": "^5.4.17",
+    "morgan": "^1.9.1"
+  }
 }
