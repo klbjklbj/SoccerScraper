@@ -1,8 +1,15 @@
 # SoccerScraper
 
-This is an app that lets users scrape (retrieve) articles from the soccer section of the New York Times website.
+This is an app that uses Cheerio to let users scrape (retrieve) articles from the soccer section of the New York Times website.  Selected articles and any associated user notes are stored in and retrieved from MongoDB.
 
 ## Technologies Used
+
+* MongoDB 
+* Mongoose
+* Cheerio
+* Javascript
+* Morgan (for logging)
+* Bootstrap 
 
 ## Getting Started
 
